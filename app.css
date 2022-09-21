@@ -8,17 +8,19 @@ body {
 
 .main {
     background-color: white;
-    max-width: 400px;
+    width: 600px;
+    height: 600px;
     display: flex;
-    flex-direction: row;
+    justify-items: stretch;
     flex-wrap: wrap;
     border: 2px solid black;
     filter: drop-shadow(10px 10px 15px black)
 }
 
 .square {
-    border: 1px solid black;
-    width: 40px;
-    height: 40px;
+    outline: 1px solid black;
+    width: 60px;
+    height: 60px;
     flex-grow: 1;
+    
 }
